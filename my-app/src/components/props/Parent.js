@@ -6,7 +6,6 @@ function Parent() {
 
     useEffect(() => {
         console.log('Component mounted');
-
         const interval = setInterval(() => {
             setCount(prev => prev + 1);
         }, 1000);
@@ -18,7 +17,7 @@ function Parent() {
     }, []);
 
     useEffect(() => {
-        console.log('Count updated');
+        console.log('Count updated...');
     }, [count])
 
     return (
