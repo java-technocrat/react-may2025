@@ -17,7 +17,7 @@ function Parent() {
     }, []);
 
     useEffect(() => {
-        console.log('Count updated');
+        console.log('Count updated...');
     }, [count])
 
     return (
